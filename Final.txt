@@ -105,7 +105,9 @@ ahora agregamos el repositorio creado en git
 https://github.com/flacogabrielc/final_firstversion.git
 
 creo que ahora si se hace el commit/
-push 
+
+push
+git push -u origin master
 
 
 source venv/bin/activate
