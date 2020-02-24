@@ -1,0 +1,115 @@
+******  FINAL:
+
+Lunes,
+1. pantalla 1 clickeable
+uru sa
+
+2. login, pantalla uso Csv
+(en que carpeta va el csv)
+
+3. manejo Csv
+
+GIT:
+flacogabrielc/final_firstversion
+
+$ git remote add origin https://github.com/flacogabrielc/final_firstversion.git
+
+
+-------------------------------------------
+
+
+Requerimientos:
+
+Acceso nombre de usuario y contrase;a
+Csv entrada/ clientes.csv
+Nombre, Edad, Direccion, Pais, Documento, Fecha alta, Correo electronico, trabajo
+
+
+1. pantalla principal /
+2. pantalla login (uso de archivo creo para validar usuarios) . n usuarios
+                                                  c contrase;a
+                                                  boton ingreesar
+3. usuario logueado cdorrectamente
+4. pantalla clientes (listado mostrando el csv o algo asi)
+5. pantalla de error
+6. pantalla de error interno
+7. pantalla de error no encontrado 404
+
+0 - si el usuario quiere acceder a algun recurso sin estar logueado se debe direccionar a la pantalla de login
+8 - alta al sistema.
+- nombre usuario
+- contrase;a
+- repita contrase;a
+-> el usuario se da de alta y el mismo se actualiza en el archivo de usuarios
+9 - enlace donde figure la informacion del autor, materia y a;o ? (yo) y se puede agregar info considearada por el creador
+
+- repositorio
+- mail ? a    paradigmas.parcial@ifts18.edu.ar
+asunto Parcial PAR -<APELLIDO1>
+
+
+VER LO DEL FINAL SIGUE!!
+clientes por Pais (buscador nombre para filtrar) busqueda parcial primeras tres letras:
+-> el resultado sera un hipervinculo a la lista filtrada por clientes
+-> si el resultado es vacio debera devolver un mensaje "No se encontraron resultados"
+
+clientes por rango etario:
+-> inicial / desde
+-> hasta
+
+clientes determinada fecha de alta:
+-> (rango) dia mes a;o , dia mes a;o
+
+hasta aca en teoria ~ !
+- - - - - - - - - - - -
+
+nuevos clientes:
+-> pantalla con el ingreso de todos los datos:
+-> una vez dado de alta se redirecciona a la pantalla de clientes
+
+nuevos productos:
+-> con todos los campos boton agregar
+-> una vez agregado redireccionar al listado de productos
+
+
+CONSULTAS productos vendidos:
+
+-> 10 productos mas vendidos:
+- indicando cual es el volumen de venta de cada producto
+
+-> los 10 clientes que mas plata gastaron:
+
+-> que compraron determinado productos
+busqueda de procto predictivo tipo Pais
+resultado con datos del cliente nombre, fecha
+tambien debe tener un no se encontro resultados
+
+-> los productos que compro determinado clientes
+buscar segun clientes, (analogo a lo anterior)
+
+
+COMANDOS:
+pwd
+saber en que carpeta estoy
+
+git init
+crea el repositorio de git vacio
+en la maquina local
+git add .
+agrega los archivos que tengo en ese directorio
+
+luego hacemos git commit -m 'mensaje del commit'
+eso agrega los archivos a nuestro git local
+
+ahora agregamos el repositorio creado en git
+https://github.com/flacogabrielc/final_firstversion.git
+
+creo que ahora si se hace el commit/
+push 
+
+
+source venv/bin/activate
+deactivate
+
+elimina todo lo que hay dentro de esa ruta (archivos carpetas etc)
+rm -rfv ruta/a/la/carpeta
